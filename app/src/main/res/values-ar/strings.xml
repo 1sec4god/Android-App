@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ثانية واحدة لله</string>
+  <string name="ar">العربية</string>
+  <string name="en">English</string>
+  <string name="preferences_category_style_title">اختر الشكل والنص</string>
+  <string name="preferences_style_title">شكل الرسالة</string>
+  <string name="preferences_text_title">نص الرسالة</string>
+  <string name="full_screen">كامل الشاشة</string>
+  <string name="toast">رسالة من النظام</string>
+  <string name="preferences_language_title">لغة الرسالة</string>
+  <string name="test_button_text">جرب الرسالة</string>
+</resources>

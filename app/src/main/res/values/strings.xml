@@ -1,0 +1,65 @@
+<resources>
+  <string name="app_name">One Second for God</string>
+  <string name="test_button_text">Test Message</string>
+  <string name="intro_text">Thank you for using One Second for God.\n\nUse this app to display a short message when unlocking your device.\n\nPlease  use the options below to customize the message.</string>
+  
+
+  <string name="preferences_category_style_title">Customize Style and Text</string>
+
+  <!-- Message Style Preferences -->
+  <string name="preferences_style_title">Message Style</string>
+  <string-array name="preference_style_options_values">
+    <item>toast</item>
+    <item>full_screen</item>
+  </string-array>
+  <string name="toast">Android default message</string>
+  <string name="full_screen">Full screen message</string>
+  <string-array name="preference_style_options">
+    <item>@string/toast</item>
+    <item>@string/full_screen</item>
+  </string-array>
+
+
+  <!-- Message Language Preferences -->
+  <string name="preferences_language_title">Message Language</string>
+  <string-array name="preference_language_options_values">
+    <item>ar</item>
+    <item>en</item>
+  </string-array>
+  <string name="ar">العربية</string>
+  <string name="en">English</string>
+  <string-array name="preference_language_options">
+    <item>@string/ar</item>
+    <item>@string/en</item>
+  </string-array>
+
+  <!-- Message Text Preferences -->
+  <string name="preferences_text_title">Message Text</string>
+  <string-array name="preference_text_options_values">
+    <item>bismillah</item>
+    <item>thanks</item>
+    <item>forgive</item>
+    <item>praise</item>
+  </string-array>
+  <string name="bismillah.ar" translatable="false">بسم الله الرحمن الرحيم</string>
+  <string name="thanks.ar" translatable="false">الحمد لله رب العالمين</string>
+  <string name="forgive.ar" translatable="false">استغفر الله العظيم</string>
+  <string name="praise.ar" translatable="false">سبحان الله</string>
+  <string name="bismillah.en" translatable="false">In the name of God</string>
+  <string name="thanks.en" translatable="false">All thanks be to God</string>
+  <string name="forgive.en" translatable="false">I ask God for forgiveness</string>
+  <string name="praise.en" translatable="false">Praise be to God</string>
+  <string-array name="preference_text_options_en">
+    <item>@string/bismillah.en</item>
+    <item>@string/thanks.en</item>
+    <item>@string/forgive.en</item>
+    <item>@string/praise.en</item>
+  </string-array>
+  <string-array name="preference_text_options_ar">
+    <item>@string/bismillah.ar</item>
+    <item>@string/thanks.ar</item>
+    <item>@string/forgive.ar</item>
+    <item>@string/praise.ar</item>
+  </string-array>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <Preference
+      android:key="pref_static_field_key"
+      android:selectable="false"
+      android:persistent="false"
+      android:clickable="false"
+    android:layout="@layout/pref_text_with_button"/>
+  <PreferenceCategory
+      android:title="@string/preferences_category_style_title"
+      android:key="pref_key_category_style">
+
+    <com.onesecforgod.app.ListPreferenceShowSummary
+        android:title="@string/preferences_language_title"
+        android:summary="%s"
+        android:key="preferences_language"
+        android:defaultValue="ar"
+        android:entries="@array/preference_language_options"
+        android:entryValues="@array/preference_language_options_values"
+        android:icon="@drawable/ic_language_black_24dp"/>
+
+    <com.onesecforgod.app.ListPreferenceShowSummary
+        android:title="@string/preferences_text_title"
+        android:summary="%s"
+        android:defaultValue="bismillah"
+        android:key="preferences_text"
+        android:entries="@array/preference_text_options_ar"
+        android:entryValues="@array/preference_text_options_values"
+        android:icon="@drawable/ic_message_black_24dp"/>
+
+    <com.onesecforgod.app.ListPreferenceShowSummary
+        android:title="@string/preferences_style_title"
+        android:summary="%s"
+        android:key="preferences_style"
+        android:defaultValue="full_screen"
+        android:entries="@array/preference_style_options"
+        android:entryValues="@array/preference_style_options_values"
+        android:icon="@drawable/ic_visibility_black_24dp"/>
+
+  </PreferenceCategory>
+</PreferenceScreen>
